@@ -1,0 +1,46 @@
+
+
+header{
+    .navbar{
+        .navbar-brand{
+            color: white;
+
+            &:hover{
+                color: gray;
+            }
+        }
+    }
+}
+main{
+    .content{
+        background-color: rgb(165, 165, 165);
+
+        .carousel_wrapper{
+                .carousel-blackout{
+                    background-color:rgb(50, 50, 50);
+
+                    .carousel{
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .card{
+        .row{
+            background-color: rgb(51, 51, 51);
+
+            .right{
+                .card-body{
+                    .card-title{
+                        color: white;
+                    }
+                    .card-text{
+                        color: lightgrey;
+                    }
+                }
+            }
+        }
+    }
+}
