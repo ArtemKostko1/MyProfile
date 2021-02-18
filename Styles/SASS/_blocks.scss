@@ -33,21 +33,19 @@ main{
         }
 
         .carousel_wrapper{
-                .carousel-blackout{
-                    background-color:rgb(50, 50, 50);
-
-                    .carousel{
-                }
+            .carousel-blackout{
+                background-color:rgb(50, 50, 50);
             }
         }
 
         .info_cards {
-            .row {
-                .col {
-                    .card {
-                        
-                    }
-                }
+            
+        }
+
+        .contactWithMe {
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
             }
         }
     }

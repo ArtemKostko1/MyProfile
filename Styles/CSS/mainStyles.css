@@ -26,6 +26,11 @@ main .content .start_section .infoAria .btn {
 main .content .carousel_wrapper .carousel-blackout {
   background-color: #323232;
 }
+main .content .contactWithMe h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
 footer .card .row {
   background-color: #333333;
 }
