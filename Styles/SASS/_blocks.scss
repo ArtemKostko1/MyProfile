@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 header{
     .navbar{
@@ -15,11 +17,36 @@ main{
     .content{
         background-color: rgb(165, 165, 165);
 
+        .start_section{
+            width: 100%;
+            height: 100vh;
+            background-color: gray;
+
+            .infoAria{
+                .btn{
+                    width: 250px;
+                    font-size: 26px;
+                    font-weight: 600;
+                    margin-top: 62.25px;
+                }
+            }
+        }
+
         .carousel_wrapper{
                 .carousel-blackout{
                     background-color:rgb(50, 50, 50);
 
                     .carousel{
+                }
+            }
+        }
+
+        .info_cards {
+            .row {
+                .col {
+                    .card {
+                        
+                    }
                 }
             }
         }

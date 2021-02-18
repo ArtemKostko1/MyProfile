@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 header .navbar .navbar-brand {
   color: white;
 }
@@ -7,6 +11,17 @@ header .navbar .navbar-brand:hover {
 
 main .content {
   background-color: #a5a5a5;
+}
+main .content .start_section {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+main .content .start_section .infoAria .btn {
+  width: 250px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 62.25px;
 }
 main .content .carousel_wrapper .carousel-blackout {
   background-color: #323232;
