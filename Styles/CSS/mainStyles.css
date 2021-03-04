@@ -2,29 +2,60 @@
   font-family: "Roboto", sans-serif;
 }
 
-header .navbar .navbar-brand {
+header .navbar .navbar-brand span {
   color: white;
 }
-header .navbar .navbar-brand:hover {
+header .navbar .navbar-brand span:hover {
   color: gray;
 }
 
-main .content {
-  background-color: #a5a5a5;
-}
 main .content .start_section {
   width: 100%;
   height: 100vh;
-  background-color: gray;
+  background-color: #252526;
+  background-image: url("/Images/I.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-main .content .start_section .infoAria .btn {
+main .content .start_section .infoAria {
+  position: relative;
+}
+main .content .start_section .infoAria .infoAria-info-text {
+  position: absolute;
+  top: 15%;
+  color: white;
+}
+main .content .start_section .infoAria .infoAria-info-btn {
+  position: absolute;
+  bottom: 15%;
+}
+main .content .start_section .infoAria .infoAria-info-btn .btn {
   width: 250px;
   font-size: 26px;
-  font-weight: 600;
-  margin-top: 62.25px;
+  font-weight: 700;
+  color: white;
+}
+main .content .start_section .infoAria .infoAria-info-btn .btn:hover {
+  color: #1e1e1e;
 }
 main .content .carousel_wrapper .carousel-blackout {
   background-color: #323232;
+}
+main .content .content-main-tabs .nav-tabs .nav-item .nav-link {
+  line-height: 2rem;
+  font-weight: 600;
+  color: #323232;
+}
+main .content .content-main-tabs .nav-tabs .nav-item #home-tab {
+  font-size: 30px;
+  font-weight: 900;
+  color: #ff6464;
+}
+main .content .content-main-tabs .tab-content .tab-pane .info_cards {
+  padding-left: 0 !important;
+  padding-left: 0 !important;
 }
 main .content .contactWithMe h1 {
   font-size: 40px;
